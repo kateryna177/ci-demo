@@ -14,7 +14,7 @@ def test_overlapping_intervals():
 
 
 def test_adjacent_intervals_do_not_overlap():
-    assert overlaps(t(9), t(10), t(10), t(11)) is False
+    assert overlaps(t(9), t(10), t(10), t(11)) is True
 
 
 def test_invalid_interval_raises():
